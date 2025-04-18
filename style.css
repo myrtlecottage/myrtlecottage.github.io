@@ -10,14 +10,6 @@ header {
     padding: 20px;
     text-align: center;
 }
-header h1 {
-    color: #00BFFF;
-    margin-bottom: 5px;
-}
-.tagline {
-    font-style: italic;
-    color: #ccc;
-}
 nav {
     background: #2a2a2a;
     padding: 10px;
@@ -31,6 +23,25 @@ nav a {
 .hero {
     text-align: center;
     padding: 50px 20px;
+}
+.signup {
+    text-align: center;
+    padding: 30px 20px;
+    background: #1e1e1e;
+    margin: 20px auto;
+}
+.signup input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+.signup button {
+    padding: 10px 20px;
+    background-color: #00BFFF;
+    color: #121212;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
 }
 .cta {
     display: inline-block;
@@ -48,11 +59,4 @@ footer {
     padding: 15px;
     font-size: 0.9em;
     color: #888;
-}
-.product {
-    background: #1a1a1a;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 8px;
-    max-width: 600px;
 }
