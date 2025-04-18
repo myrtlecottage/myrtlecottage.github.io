@@ -49,3 +49,10 @@ footer {
     font-size: 0.9em;
     color: #888;
 }
+.product {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    max-width: 600px;
+}
